@@ -30,7 +30,7 @@
 | delivery_source_id | integer    | null:false        |
 | delivery_day_id    | integer    | null:false        |
 | prise_id           | integer    | null:false        |
-| use                | references | foreign_key: true |
+| user               | references | foreign_key: true |
 
 ### Association
 
