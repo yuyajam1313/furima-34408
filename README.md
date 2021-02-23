@@ -29,7 +29,7 @@
 | delivery_fee_id    | integer    | null:false        |
 | area_id            | integer    | null:false        |
 | delivery_day_id    | integer    | null:false        |
-| prise              | integer    | null:false        |
+| price              | integer    | null:false        |
 | user               | references | foreign_key: true |
 
 ### Association
