@@ -27,9 +27,9 @@
 | category_id        | integer    | null:false        |
 | status_id          | integer    | null:false        |
 | delivery_fee_id    | integer    | null:false        |
-| delivery_source_id | integer    | null:false        |
+| area_id            | integer    | null:false        |
 | delivery_day_id    | integer    | null:false        |
-| prise_id           | integer    | null:false        |
+| prise              | integer    | null:false        |
 | user               | references | foreign_key: true |
 
 ### Association
@@ -55,7 +55,7 @@
 | Column           | Type       | Options           |
 |------------------|------------|-------------------|
 | postal_code      | string     | null:false        |
-| prefecture_id    | integer    | null:false        |
+| area_id          | integer    | null:false        |
 | municipalities   | string     | null:false        |
 | address_number   | string     | null:false        |
 | building_name    | string     |                   |
