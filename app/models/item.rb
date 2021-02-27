@@ -9,9 +9,11 @@ class Item < ApplicationRecord
     validates :area_id
     validates :delivery_day_id 
     validates :price, format:{ with: /\A[0-9]+\z/ }
-    validates :user,
+    validates :user
+    validates :image
   end
 
   belongs_to :user
-
+  has_one_attached :image
+  
 end
