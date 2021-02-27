@@ -26,9 +26,9 @@
 | description        | text       | null:false        |
 | category_id        | integer    | null:false        |
 | status_id          | integer    | null:false        |
-| delivery_fee_id    | integer    | null:false        |
+| deliveryfee_id     | integer    | null:false        |
 | area_id            | integer    | null:false        |
-| delivery_day_id    | integer    | null:false        |
+| deliveryday_id     | integer    | null:false        |
 | price              | integer    | null:false        |
 | user               | references | foreign_key: true |
 
