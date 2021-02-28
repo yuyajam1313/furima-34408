@@ -10,7 +10,7 @@ class Item < ApplicationRecord
     validates :area_id
     validates :deliveryday_id
   end
-    validates :price, format:{ with: /\A[0-9]+\z/ }
+    validates :price, format:{ with: /\A[0-9]+\z/ }, numericality: { greater_than_or_equal_to: 300, less_than_or_equal_to: 9999999 }
     validates :user
     validates :image
   end
